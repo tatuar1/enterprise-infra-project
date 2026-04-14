@@ -1,3 +1,12 @@
+# Proyecto: Actualización Controlada de SaaS con Validación de Integridad
+
+Simula el proceso de actualización de un servicio de facturación en la nube, con:
+- Validación de integridad por **suma de montos** y **checksum SHA256**
+- Medición de capacidad (CPU/RAM del contenedor)
+- Automatización total con Bash
+- Registro de logs y backups
+
+## Tecnologías
 - Node.js + Express (simula el SaaS)
 - Docker
 - Bash scripting
@@ -10,4 +19,3 @@
 
 ## Autor
 Leonel Luna Medina - Candidato a Cloud & Infrastructure Engineer
-EOF
