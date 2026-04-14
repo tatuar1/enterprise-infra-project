@@ -1,0 +1,4 @@
+node_modules/
+*.log
+factura_backup_*.json
+.env
