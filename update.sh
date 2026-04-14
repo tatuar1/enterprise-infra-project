@@ -46,7 +46,7 @@ else
 fi
 
 CHECKSUM_AFTER=$(curl -s http://localhost:3000/checksum | jq -r '.checksum')
-echo "   📝 Checksum después: $CHECKSUM_AFTER"
+echo "    Checksum después: $CHECKSUM_AFTER"
 
 if [ "$CHECKSUM_BEFORE" = "$CHECKSUM_AFTER" ]; then
     echo "    Checksum: IDÉNTICO (los datos no cambiaron inesperadamente)"

@@ -1,0 +1,24 @@
+{
+  "name": "enterprise-infra-project",
+  "version": "1.0.0",
+  "description": "Simula el proceso de actualización de un servicio de facturación en la nube, con: - Validación de integridad por **suma de montos** y **checksum SHA256** - Medición de capacidad (CPU/RAM del contenedor) - Automatización total con Bash - Registro de logs y backups",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tatuar1/enterprise-infra-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tatuar1/enterprise-infra-project/issues"
+  },
+  "homepage": "https://github.com/tatuar1/enterprise-infra-project#readme",
+  "dependencies": {
+    "axios": "^1.15.0"
+  }
+}
